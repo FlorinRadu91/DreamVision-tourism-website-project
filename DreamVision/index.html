@@ -1,58 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>DreamVision</title>
-     <!-- font-awesome -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DreamVision</title>
+    <!-- font-awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- styles css -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
- <body>
-  <nav class="navigation">
-   <div class="centered-nav">
-     <div class="nav-heading">
-       <img src="images/logo2.svg" class="logo" alt="" />
-     </div>
-     <ul class="navbar-link" id="navbar-link">
-      <li>
-        <a href="#home" class="navbar-link"> home </a>
-      </li>
+<body>
 
-      <li>
-        <a href="#about" class="navbar-link"> about </a>
-      </li>
+  <!-- Navbar -->
 
-      <li>
-        <a href="#services" class="navbar-link"> services </a>
-      </li>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <img src="./images/logo.svg" class="nav-logo" alt="DreamVision" />
+        <button type="button" class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <a href="#home" class="nav-link"> home </a>
+        </li>
 
-      <li>
-        <a href="#tours" class="navbar-link"> tours</a>
-      </li>
-    </ul>
+        <li>
+          <a href="#about" class="nav-link"> about </a>
+        </li>
 
-    <ul class="navbar-icons">
-      <li>
-        <a href="https://www.facebook.com" target="_blank" class="navbar-icon"
-          ><i class="fab fa-facebook"></i
-        ></a>
-      </li>
-      <li>
-        <a href="https://www.twitter.com" target="_blank" class="navbar-icon"
-          ><i class="fab fa-twitter"></i
-        ></a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com" target="_blank" class="navbar-icon"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </li>
-    </ul>
+        <li>
+          <a href="#services" class="nav-link"> services </a>
+        </li>
+
+        <li>
+          <a href="#tours" class="nav-link"> tours</a>
+        </li>
+      </ul>
+
+      <ul class="nav-icons">
+        <li>
+          <a href="https://www.twitter.com" target="_blank" class="nav-icon"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank" class="nav-icon"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank" class="nav-icon"
+            ><i class="fab fa-squarespace"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- End of Navbar -->
+
+  <!-- Home -->
+
+<section class="home" id="home">
+  <div class="home-banner">
+    <h1>keep on discovering</h1>
+    <p>
+      Continuing to explore the vast landscapes and diverse ecosystems of planet Earth opens the door to endless discoveries.
+    </p>
+    <a href="#tours" class="btn home-btn">explore the tours</a>
   </div>
-</nav>
+</section>
+
+<!-- End of Home -->
+
+<!-- About -->
+
+<section class="section" id="about">
+  <div class="section-title">
+    <h2>about <span>us</span></h2>
+  </div>
+  <div class="section-center about-center">
+    <div class="about-img">
+      <img
+        src="./images/about.jpg"
+        class="about-photo"
+        alt="awesome beach"
+      />
+    </div>
+    <article class="about-info">
+      <h3>explore the difference</h3>
+      <p>
+        DreamVision, an internationally renowned travel company, offers a transformative experience for adventure seekers and nature enthusiasts.
+      </p>
+      <p>
+        With their expertly crafted itineraries, personalized service, and commitment to sustainable travel, DreamVision takes travelers on unforgettable journeys to some of the world's most captivating destinations.
+      </p>
+      <a href="#" class="btn">read more</a>
+    </article>
+  </div>
+</section>
+
+<!-- End of About -->
+
+<!-- Services -->
+
+<section class="section services" id="services">
+  <div class="section-title">
+    <h2>our <span>services</span></h2>
+  </div>
+  <div class="section-center services-center">
+    <article class="service">
+      <span class="service-icon"><i class="fas fa-wallet fa-fw"></i></span>
+      <div class="service-info">
+        <h4 class="service-title">saving money</h4>
+        <p class="service-text">
+          Through careful planning and efficient logistics, DreamVision optimizes travel routes and minimizes unnecessary expenses.
+        </p>
+      </div>
+    </article>
+
+    <article class="service">
+      <span class="service-icon"><i class="fas fa-tree fa-fw"></i></span>
+      <div class="service-info">
+        <h4 class="service-title">endless hiking</h4>
+        <p class="service-text">
+          We offer an exhilarating program called Endless Biking specifically designed for tourists who are passionate about cycling.
+        </p>
+      </div>
+    </article>
+
+    <article class="service">
+      <span class="service-icon"><i class="fas fa-socks fa-fw"></i></span>
+      <div class="service-info">
+        <h4 class="service-title">amazing comfort</h4>
+        <p class="service-text">
+          We provide an exceptional level of comfort for our tourists throughout their travel experiences.
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- End of Services  -->
+
 <script src="./js/app.js"></script>
 </body>
 </html>
